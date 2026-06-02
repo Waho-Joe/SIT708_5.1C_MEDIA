@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editTextRegFullname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="99dp"
+            android:layout_marginTop="77dp"
+            android:layout_marginEnd="102dp"
+            android:layout_marginBottom="47dp"
+            android:ems="10"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:hint="Full name"
+            app:layout_constraintBottom_toTopOf="@+id/editTextRegUserName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextRegUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="101dp"
+            android:layout_marginEnd="101dp"
+            android:layout_marginBottom="48dp"
+            android:ems="10"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:hint="Name"
+            app:layout_constraintBottom_toTopOf="@+id/editTextRegPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextRegPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="101dp"
+            android:layout_marginBottom="42dp"
+            android:ems="10"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:hint="Name"
+            app:layout_constraintBottom_toTopOf="@+id/editTextConfirmPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextConfirmPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="101dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="124dp"
+            android:ems="10"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:hint="Name"
+            app:layout_constraintBottom_toTopOf="@+id/btnCreateAccount"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/btnCreateAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="121dp"
+            android:layout_marginEnd="121dp"
+            android:layout_marginBottom="171dp"
+            android:text="CREATE ACCOUNT"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
