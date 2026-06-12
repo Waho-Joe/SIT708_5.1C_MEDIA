@@ -44,3 +44,6 @@ app/src/main/res/layout/
 ├── fragment_stream_home.xml
 ├── fragment_player.xml
 └── fragment_playlist.xml
+
+app/src/main/
+└── AndroidManifest.xml
